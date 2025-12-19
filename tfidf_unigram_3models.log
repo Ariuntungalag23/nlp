@@ -1,0 +1,220 @@
+2025-12-17 09:14:11,649 | INFO | Loading data
+2025-12-17 09:14:18,577 | INFO | Building TF-IDF Unigram features
+2025-12-17 09:14:19,329 | INFO | LogisticRegression: C=0.0001
+2025-12-17 09:14:19,555 | INFO | LogisticRegression: C=0.001
+2025-12-17 09:14:19,815 | INFO | LogisticRegression: C=0.005
+2025-12-17 09:14:20,103 | INFO | LogisticRegression: C=0.01
+2025-12-17 09:14:20,343 | INFO | LogisticRegression: C=0.05
+2025-12-17 09:14:20,519 | INFO | LogisticRegression: C=0.1
+2025-12-17 09:14:20,712 | INFO | LogisticRegression: C=0.5
+2025-12-17 09:14:20,861 | INFO | LogisticRegression: C=1
+2025-12-17 09:14:21,009 | INFO | LogisticRegression: C=2
+2025-12-17 09:14:21,162 | INFO | LogisticRegression: C=5
+2025-12-17 09:14:21,313 | INFO | LogisticRegression: C=10
+2025-12-17 09:14:21,476 | INFO | LogisticRegression: C=20
+2025-12-17 09:14:21,640 | INFO | LogisticRegression: C=50
+2025-12-17 09:14:21,793 | INFO | LogisticRegression: C=100
+2025-12-17 09:14:21,935 | INFO | LogisticRegression: C=200
+2025-12-17 09:14:22,084 | INFO | LogisticRegression: C=300
+2025-12-17 09:14:22,246 | INFO | LogisticRegression: C=500
+2025-12-17 09:14:22,399 | INFO | LogisticRegression: C=700
+2025-12-17 09:14:22,546 | INFO | LogisticRegression: C=900
+2025-12-17 09:14:22,699 | INFO | LogisticRegression: C=1000
+2025-12-17 09:14:22,841 | INFO | RandomForest: n_estimators=50, depth=5
+2025-12-17 09:14:23,226 | INFO | RandomForest: n_estimators=50, depth=10
+2025-12-17 09:14:23,675 | INFO | RandomForest: n_estimators=50, depth=15
+2025-12-17 09:14:24,177 | INFO | RandomForest: n_estimators=50, depth=20
+2025-12-17 09:14:24,774 | INFO | RandomForest: n_estimators=100, depth=5
+2025-12-17 09:14:25,374 | INFO | RandomForest: n_estimators=100, depth=10
+2025-12-17 09:14:26,116 | INFO | RandomForest: n_estimators=100, depth=15
+2025-12-17 09:14:26,991 | INFO | RandomForest: n_estimators=100, depth=20
+2025-12-17 09:14:28,023 | INFO | RandomForest: n_estimators=150, depth=5
+2025-12-17 09:14:28,890 | INFO | RandomForest: n_estimators=150, depth=10
+2025-12-17 09:14:29,952 | INFO | RandomForest: n_estimators=150, depth=15
+2025-12-17 09:14:31,175 | INFO | RandomForest: n_estimators=150, depth=20
+2025-12-17 09:14:32,668 | INFO | RandomForest: n_estimators=200, depth=5
+2025-12-17 09:14:33,753 | INFO | RandomForest: n_estimators=200, depth=10
+2025-12-17 09:14:35,088 | INFO | RandomForest: n_estimators=200, depth=15
+2025-12-17 09:14:36,637 | INFO | RandomForest: n_estimators=200, depth=20
+2025-12-17 09:14:38,585 | INFO | RandomForest: n_estimators=300, depth=5
+2025-12-17 09:14:40,160 | INFO | RandomForest: n_estimators=300, depth=10
+2025-12-17 09:14:42,138 | INFO | RandomForest: n_estimators=300, depth=15
+2025-12-17 09:14:44,425 | INFO | RandomForest: n_estimators=300, depth=20
+2025-12-17 09:14:47,247 | INFO | AdaBoost: n_estimators=50, lr=0.01
+2025-12-17 09:15:05,647 | INFO | AdaBoost: n_estimators=50, lr=0.05
+2025-12-17 09:15:24,016 | INFO | AdaBoost: n_estimators=50, lr=0.1
+2025-12-17 09:15:42,425 | INFO | AdaBoost: n_estimators=50, lr=0.5
+2025-12-17 09:16:00,964 | INFO | AdaBoost: n_estimators=100, lr=0.01
+2025-12-17 09:16:37,841 | INFO | AdaBoost: n_estimators=100, lr=0.05
+2025-12-17 09:17:14,617 | INFO | AdaBoost: n_estimators=100, lr=0.1
+2025-12-17 09:17:52,357 | INFO | AdaBoost: n_estimators=100, lr=0.5
+2025-12-17 09:18:29,218 | INFO | AdaBoost: n_estimators=150, lr=0.01
+2025-12-17 09:19:24,648 | INFO | AdaBoost: n_estimators=150, lr=0.05
+2025-12-17 09:20:19,896 | INFO | AdaBoost: n_estimators=150, lr=0.1
+2025-12-17 09:21:15,484 | INFO | AdaBoost: n_estimators=150, lr=0.5
+2025-12-17 09:22:09,859 | INFO | AdaBoost: n_estimators=200, lr=0.01
+2025-12-17 09:23:23,446 | INFO | AdaBoost: n_estimators=200, lr=0.05
+2025-12-17 09:24:37,262 | INFO | AdaBoost: n_estimators=200, lr=0.1
+2025-12-17 09:25:50,339 | INFO | AdaBoost: n_estimators=200, lr=0.5
+2025-12-17 09:27:06,215 | INFO | AdaBoost: n_estimators=300, lr=0.01
+2025-12-17 09:28:55,211 | INFO | AdaBoost: n_estimators=300, lr=0.05
+2025-12-17 09:30:44,368 | INFO | AdaBoost: n_estimators=300, lr=0.1
+2025-12-17 09:32:35,540 | INFO | AdaBoost: n_estimators=300, lr=0.5
+2025-12-17 09:34:34,243 | INFO | Loading data
+2025-12-17 09:34:41,163 | INFO | Building TF-IDF Unigram features
+2025-12-17 09:34:41,873 | INFO | LogisticRegression: C=0.0001
+2025-12-17 09:34:42,086 | INFO | LogisticRegression: C=0.001
+2025-12-17 09:34:42,332 | INFO | LogisticRegression: C=0.005
+2025-12-17 09:34:42,634 | INFO | LogisticRegression: C=0.01
+2025-12-17 09:34:42,886 | INFO | LogisticRegression: C=0.05
+2025-12-17 09:34:43,073 | INFO | LogisticRegression: C=0.1
+2025-12-17 09:34:43,276 | INFO | LogisticRegression: C=0.5
+2025-12-17 09:34:43,420 | INFO | LogisticRegression: C=1
+2025-12-17 09:34:43,561 | INFO | LogisticRegression: C=2
+2025-12-17 09:34:43,702 | INFO | LogisticRegression: C=5
+2025-12-17 09:34:43,864 | INFO | LogisticRegression: C=10
+2025-12-17 09:34:44,008 | INFO | LogisticRegression: C=20
+2025-12-17 09:34:44,151 | INFO | LogisticRegression: C=50
+2025-12-17 09:34:44,289 | INFO | LogisticRegression: C=100
+2025-12-17 09:34:44,427 | INFO | LogisticRegression: C=200
+2025-12-17 09:34:44,566 | INFO | LogisticRegression: C=300
+2025-12-17 09:34:44,730 | INFO | LogisticRegression: C=500
+2025-12-17 09:34:44,880 | INFO | LogisticRegression: C=700
+2025-12-17 09:34:45,028 | INFO | LogisticRegression: C=900
+2025-12-17 09:34:45,193 | INFO | LogisticRegression: C=1000
+2025-12-17 09:34:45,348 | INFO | RandomForest: n_estimators=50, depth=5
+2025-12-17 09:34:45,728 | INFO | RandomForest: n_estimators=50, depth=10
+2025-12-17 09:34:46,163 | INFO | RandomForest: n_estimators=50, depth=15
+2025-12-17 09:34:46,647 | INFO | RandomForest: n_estimators=50, depth=20
+2025-12-17 09:34:47,232 | INFO | RandomForest: n_estimators=100, depth=5
+2025-12-17 09:34:47,805 | INFO | RandomForest: n_estimators=100, depth=10
+2025-12-17 09:34:48,537 | INFO | RandomForest: n_estimators=100, depth=15
+2025-12-17 09:34:49,387 | INFO | RandomForest: n_estimators=100, depth=20
+2025-12-17 09:34:50,445 | INFO | RandomForest: n_estimators=150, depth=5
+2025-12-17 09:34:51,227 | INFO | RandomForest: n_estimators=150, depth=10
+2025-12-17 09:34:52,246 | INFO | RandomForest: n_estimators=150, depth=15
+2025-12-17 09:34:53,442 | INFO | RandomForest: n_estimators=150, depth=20
+2025-12-17 09:34:54,939 | INFO | RandomForest: n_estimators=200, depth=5
+2025-12-17 09:34:55,961 | INFO | RandomForest: n_estimators=200, depth=10
+2025-12-17 09:34:57,251 | INFO | RandomForest: n_estimators=200, depth=15
+2025-12-17 09:34:58,804 | INFO | RandomForest: n_estimators=200, depth=20
+2025-12-17 09:35:00,850 | INFO | RandomForest: n_estimators=300, depth=5
+2025-12-17 09:35:02,416 | INFO | RandomForest: n_estimators=300, depth=10
+2025-12-17 09:35:04,285 | INFO | RandomForest: n_estimators=300, depth=15
+2025-12-17 09:35:06,582 | INFO | RandomForest: n_estimators=300, depth=20
+2025-12-17 09:35:09,425 | INFO | AdaBoost: n_estimators=50, lr=0.01
+2025-12-17 09:35:28,032 | INFO | AdaBoost: n_estimators=50, lr=0.05
+2025-12-17 09:35:46,733 | INFO | AdaBoost: n_estimators=50, lr=0.1
+2025-12-17 09:37:27,195 | INFO | AdaBoost: n_estimators=50, lr=0.5
+2025-12-17 09:37:45,818 | INFO | AdaBoost: n_estimators=100, lr=0.01
+2025-12-17 09:38:23,133 | INFO | AdaBoost: n_estimators=100, lr=0.05
+2025-12-17 09:38:59,110 | INFO | AdaBoost: n_estimators=100, lr=0.1
+2025-12-17 09:39:35,205 | INFO | AdaBoost: n_estimators=100, lr=0.5
+2025-12-17 09:40:11,477 | INFO | AdaBoost: n_estimators=150, lr=0.01
+2025-12-17 09:41:05,531 | INFO | AdaBoost: n_estimators=150, lr=0.05
+2025-12-17 09:42:00,062 | INFO | AdaBoost: n_estimators=150, lr=0.1
+2025-12-17 09:42:55,766 | INFO | AdaBoost: n_estimators=150, lr=0.5
+2025-12-17 09:43:53,787 | INFO | AdaBoost: n_estimators=200, lr=0.01
+2025-12-17 09:45:06,739 | INFO | AdaBoost: n_estimators=200, lr=0.05
+2025-12-17 09:46:19,053 | INFO | AdaBoost: n_estimators=200, lr=0.1
+2025-12-17 09:47:31,713 | INFO | AdaBoost: n_estimators=200, lr=0.5
+2025-12-17 09:48:44,430 | INFO | AdaBoost: n_estimators=300, lr=0.01
+2025-12-17 09:50:33,461 | INFO | AdaBoost: n_estimators=300, lr=0.05
+2025-12-17 09:52:22,461 | INFO | AdaBoost: n_estimators=300, lr=0.1
+2025-12-17 09:54:11,461 | INFO | AdaBoost: n_estimators=300, lr=0.5
+2025-12-17 09:57:55,709 | INFO | Loading data
+2025-12-17 09:58:02,644 | INFO | Building TF-IDF Unigram features
+2025-12-17 09:58:03,310 | INFO | LogisticRegression: C=0.0001
+2025-12-17 09:58:03,514 | INFO | LogisticRegression: C=0.001
+2025-12-17 09:58:03,757 | INFO | LogisticRegression: C=0.005
+2025-12-17 09:58:04,040 | INFO | LogisticRegression: C=0.01
+2025-12-17 09:58:04,275 | INFO | LogisticRegression: C=0.05
+2025-12-17 09:58:04,459 | INFO | LogisticRegression: C=0.1
+2025-12-17 09:58:04,655 | INFO | LogisticRegression: C=0.5
+2025-12-17 09:58:04,804 | INFO | LogisticRegression: C=1
+2025-12-17 09:58:04,951 | INFO | LogisticRegression: C=2
+2025-12-17 09:58:05,094 | INFO | LogisticRegression: C=5
+2025-12-17 09:58:05,238 | INFO | LogisticRegression: C=10
+2025-12-17 09:58:05,382 | INFO | LogisticRegression: C=20
+2025-12-17 09:58:05,524 | INFO | LogisticRegression: C=50
+2025-12-17 09:58:05,669 | INFO | LogisticRegression: C=100
+2025-12-17 09:58:05,806 | INFO | LogisticRegression: C=200
+2025-12-17 09:58:05,946 | INFO | LogisticRegression: C=300
+2025-12-17 09:58:06,108 | INFO | LogisticRegression: C=500
+2025-12-17 09:58:06,256 | INFO | LogisticRegression: C=700
+2025-12-17 09:58:06,402 | INFO | LogisticRegression: C=900
+2025-12-17 09:58:06,557 | INFO | LogisticRegression: C=1000
+2025-12-17 09:58:06,701 | INFO | RandomForest: n_estimators=50, depth=5
+2025-12-17 09:58:07,070 | INFO | RandomForest: n_estimators=50, depth=10
+2025-12-17 09:58:07,480 | INFO | RandomForest: n_estimators=50, depth=15
+2025-12-17 09:58:07,977 | INFO | RandomForest: n_estimators=50, depth=20
+2025-12-17 09:58:08,566 | INFO | RandomForest: n_estimators=100, depth=5
+2025-12-17 09:58:09,137 | INFO | RandomForest: n_estimators=100, depth=10
+2025-12-17 09:58:09,841 | INFO | RandomForest: n_estimators=100, depth=15
+2025-12-17 09:58:10,769 | INFO | RandomForest: n_estimators=100, depth=20
+2025-12-17 09:58:11,851 | INFO | RandomForest: n_estimators=150, depth=5
+2025-12-17 09:58:12,698 | INFO | RandomForest: n_estimators=150, depth=10
+2025-12-17 09:58:13,722 | INFO | RandomForest: n_estimators=150, depth=15
+2025-12-17 09:59:33,483 | INFO | Loading data
+2025-12-17 09:59:40,290 | INFO | Building TF-IDF Unigram features
+2025-12-17 09:59:40,942 | INFO | LogisticRegression: C=0.0001
+2025-12-17 09:59:41,141 | INFO | LogisticRegression: C=0.001
+2025-12-17 09:59:41,380 | INFO | LogisticRegression: C=0.005
+2025-12-17 09:59:41,651 | INFO | LogisticRegression: C=0.01
+2025-12-17 09:59:41,889 | INFO | LogisticRegression: C=0.05
+2025-12-17 09:59:42,069 | INFO | LogisticRegression: C=0.1
+2025-12-17 09:59:42,268 | INFO | LogisticRegression: C=0.5
+2025-12-17 09:59:42,418 | INFO | LogisticRegression: C=1
+2025-12-17 09:59:42,563 | INFO | LogisticRegression: C=2
+2025-12-17 09:59:42,715 | INFO | LogisticRegression: C=5
+2025-12-17 09:59:42,878 | INFO | LogisticRegression: C=10
+2025-12-17 09:59:43,027 | INFO | LogisticRegression: C=20
+2025-12-17 09:59:43,165 | INFO | LogisticRegression: C=50
+2025-12-17 09:59:43,300 | INFO | LogisticRegression: C=100
+2025-12-17 09:59:43,439 | INFO | LogisticRegression: C=200
+2025-12-17 09:59:43,577 | INFO | LogisticRegression: C=300
+2025-12-17 09:59:43,740 | INFO | LogisticRegression: C=500
+2025-12-17 09:59:43,891 | INFO | LogisticRegression: C=700
+2025-12-17 09:59:44,036 | INFO | LogisticRegression: C=900
+2025-12-17 09:59:44,198 | INFO | LogisticRegression: C=1000
+2025-12-17 09:59:44,354 | INFO | RandomForest: n_estimators=50, depth=5
+2025-12-17 09:59:44,712 | INFO | RandomForest: n_estimators=50, depth=10
+2025-12-17 09:59:45,113 | INFO | RandomForest: n_estimators=50, depth=15
+2025-12-17 09:59:45,607 | INFO | RandomForest: n_estimators=50, depth=20
+2025-12-17 09:59:46,186 | INFO | RandomForest: n_estimators=100, depth=5
+2025-12-17 09:59:46,768 | INFO | RandomForest: n_estimators=100, depth=10
+2025-12-17 09:59:47,474 | INFO | RandomForest: n_estimators=100, depth=15
+2025-12-17 09:59:48,326 | INFO | RandomForest: n_estimators=100, depth=20
+2025-12-17 09:59:49,348 | INFO | RandomForest: n_estimators=150, depth=5
+2025-12-17 09:59:50,120 | INFO | RandomForest: n_estimators=150, depth=10
+2025-12-17 09:59:51,116 | INFO | RandomForest: n_estimators=150, depth=15
+2025-12-17 09:59:52,294 | INFO | RandomForest: n_estimators=150, depth=20
+2025-12-17 09:59:53,779 | INFO | RandomForest: n_estimators=200, depth=5
+2025-12-17 09:59:54,839 | INFO | RandomForest: n_estimators=200, depth=10
+2025-12-17 09:59:56,185 | INFO | RandomForest: n_estimators=200, depth=15
+2025-12-17 09:59:57,970 | INFO | RandomForest: n_estimators=200, depth=20
+2025-12-17 09:59:59,994 | INFO | RandomForest: n_estimators=300, depth=5
+2025-12-17 10:00:01,539 | INFO | RandomForest: n_estimators=300, depth=10
+2025-12-17 10:00:03,426 | INFO | RandomForest: n_estimators=300, depth=15
+2025-12-17 10:00:05,734 | INFO | RandomForest: n_estimators=300, depth=20
+2025-12-17 10:00:08,539 | INFO | AdaBoost: n_estimators=50, lr=0.01
+2025-12-17 10:00:26,870 | INFO | AdaBoost: n_estimators=50, lr=0.05
+2025-12-17 10:00:45,270 | INFO | AdaBoost: n_estimators=50, lr=0.1
+2025-12-17 10:01:03,505 | INFO | AdaBoost: n_estimators=50, lr=0.5
+2025-12-17 10:01:22,554 | INFO | AdaBoost: n_estimators=100, lr=0.01
+2025-12-17 10:02:00,665 | INFO | AdaBoost: n_estimators=100, lr=0.05
+2025-12-17 10:02:37,688 | INFO | AdaBoost: n_estimators=100, lr=0.1
+2025-12-17 10:03:15,065 | INFO | AdaBoost: n_estimators=100, lr=0.5
+2025-12-17 10:03:52,861 | INFO | AdaBoost: n_estimators=150, lr=0.01
+2025-12-17 10:04:49,897 | INFO | AdaBoost: n_estimators=150, lr=0.05
+2025-12-17 10:05:46,358 | INFO | AdaBoost: n_estimators=150, lr=0.1
+2025-12-17 10:06:43,587 | INFO | AdaBoost: n_estimators=150, lr=0.5
+2025-12-17 10:07:38,736 | INFO | AdaBoost: n_estimators=200, lr=0.01
+2025-12-17 10:08:53,570 | INFO | AdaBoost: n_estimators=200, lr=0.05
+2025-12-17 10:10:06,830 | INFO | AdaBoost: n_estimators=200, lr=0.1
+2025-12-17 10:11:20,441 | INFO | AdaBoost: n_estimators=200, lr=0.5
+2025-12-17 10:12:33,889 | INFO | AdaBoost: n_estimators=300, lr=0.01
+2025-12-17 10:14:23,739 | INFO | AdaBoost: n_estimators=300, lr=0.05
+2025-12-17 10:16:14,291 | INFO | AdaBoost: n_estimators=300, lr=0.1
+2025-12-17 10:18:03,050 | INFO | AdaBoost: n_estimators=300, lr=0.5
+2025-12-17 10:19:52,013 | INFO | TF-IDF UNIGRAM (3 models) finished

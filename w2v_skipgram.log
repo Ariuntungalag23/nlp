@@ -1,0 +1,107 @@
+2025-12-17 10:53:34,355 | INFO | Loading data
+2025-12-17 10:53:41,199 | INFO | Loading Word2Vec Skip-gram model
+2025-12-17 10:53:41,199 | INFO | loading Word2Vec object from /Users/ariuntungalag/Desktop/Natural_Lan/data/w2v_skipgram.model
+2025-12-17 10:53:41,221 | INFO | loading wv recursively from /Users/ariuntungalag/Desktop/Natural_Lan/data/w2v_skipgram.model.wv.* with mmap=None
+2025-12-17 10:53:41,221 | INFO | setting ignored attribute cum_table to None
+2025-12-17 10:53:41,375 | INFO | Word2Vec lifecycle event {'fname': '/Users/ariuntungalag/Desktop/Natural_Lan/data/w2v_skipgram.model', 'datetime': '2025-12-17T10:53:41.356694', 'gensim': '4.4.0', 'python': '3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 11:23:37) [Clang 14.0.6 ]', 'platform': 'macOS-15.1.1-arm64-arm-64bit-Mach-O', 'event': 'loaded'}
+2025-12-17 10:53:42,797 | INFO | LogisticRegression: C=0.0001
+2025-12-17 10:53:42,859 | INFO | LogisticRegression: C=0.001
+2025-12-17 10:53:42,920 | INFO | LogisticRegression: C=0.005
+2025-12-17 10:53:42,985 | INFO | LogisticRegression: C=0.01
+2025-12-17 10:53:43,057 | INFO | LogisticRegression: C=0.05
+2025-12-17 10:53:43,141 | INFO | LogisticRegression: C=0.1
+2025-12-17 10:53:43,227 | INFO | LogisticRegression: C=0.5
+2025-12-17 10:53:43,318 | INFO | LogisticRegression: C=1
+2025-12-17 10:53:43,411 | INFO | LogisticRegression: C=2
+2025-12-17 10:53:43,515 | INFO | LogisticRegression: C=5
+2025-12-17 10:53:43,606 | INFO | LogisticRegression: C=10
+2025-12-17 10:53:43,704 | INFO | LogisticRegression: C=20
+2025-12-17 10:53:43,796 | INFO | LogisticRegression: C=50
+2025-12-17 10:53:43,888 | INFO | LogisticRegression: C=100
+2025-12-17 10:53:43,979 | INFO | LogisticRegression: C=200
+2025-12-17 10:53:44,069 | INFO | LogisticRegression: C=300
+2025-12-17 10:53:44,159 | INFO | LogisticRegression: C=500
+2025-12-17 10:53:44,249 | INFO | LogisticRegression: C=700
+2025-12-17 10:53:44,337 | INFO | LogisticRegression: C=900
+2025-12-17 10:53:44,425 | INFO | LogisticRegression: C=1000
+2025-12-17 10:53:44,512 | INFO | RandomForest: n_estimators=50, depth=5
+2025-12-17 10:53:45,491 | INFO | RandomForest: n_estimators=50, depth=10
+2025-12-17 10:53:47,074 | INFO | RandomForest: n_estimators=50, depth=15
+2025-12-17 10:53:48,981 | INFO | RandomForest: n_estimators=50, depth=20
+2025-12-17 10:53:51,010 | INFO | RandomForest: n_estimators=100, depth=5
+2025-12-17 10:53:52,798 | INFO | RandomForest: n_estimators=100, depth=10
+2025-12-17 10:53:55,836 | INFO | RandomForest: n_estimators=100, depth=15
+2025-12-17 10:53:59,484 | INFO | RandomForest: n_estimators=100, depth=20
+2025-12-17 10:54:03,371 | INFO | RandomForest: n_estimators=150, depth=5
+2025-12-17 10:54:06,037 | INFO | RandomForest: n_estimators=150, depth=10
+2025-12-17 10:54:10,635 | INFO | RandomForest: n_estimators=150, depth=15
+2025-12-17 10:54:16,143 | INFO | RandomForest: n_estimators=150, depth=20
+2025-12-17 10:54:21,788 | INFO | RandomForest: n_estimators=200, depth=5
+2025-12-17 10:54:25,335 | INFO | RandomForest: n_estimators=200, depth=10
+2025-12-17 10:54:31,225 | INFO | RandomForest: n_estimators=200, depth=15
+2025-12-17 10:54:38,388 | INFO | RandomForest: n_estimators=200, depth=20
+2025-12-17 10:54:45,967 | INFO | RandomForest: n_estimators=300, depth=5
+2025-12-17 10:54:51,195 | INFO | RandomForest: n_estimators=300, depth=10
+2025-12-17 10:55:00,925 | INFO | RandomForest: n_estimators=300, depth=15
+2025-12-17 10:55:11,999 | INFO | RandomForest: n_estimators=300, depth=20
+2025-12-17 10:55:23,191 | INFO | AdaBoost: n_estimators=50, lr=0.01
+2025-12-17 10:55:37,576 | INFO | AdaBoost: n_estimators=50, lr=0.05
+2025-12-17 10:55:51,948 | INFO | AdaBoost: n_estimators=50, lr=0.1
+2025-12-17 10:56:06,335 | INFO | AdaBoost: n_estimators=50, lr=0.5
+2025-12-17 10:56:20,839 | INFO | AdaBoost: n_estimators=100, lr=0.01
+2025-12-17 10:56:50,016 | INFO | AdaBoost: n_estimators=100, lr=0.05
+2025-12-17 10:57:18,958 | INFO | AdaBoost: n_estimators=100, lr=0.1
+2025-12-17 10:57:47,824 | INFO | AdaBoost: n_estimators=100, lr=0.5
+2025-12-17 10:58:17,427 | INFO | AdaBoost: n_estimators=150, lr=0.01
+2025-12-17 10:59:01,000 | INFO | AdaBoost: n_estimators=150, lr=0.05
+2025-12-17 10:59:44,095 | INFO | AdaBoost: n_estimators=150, lr=0.1
+2025-12-17 11:00:27,501 | INFO | AdaBoost: n_estimators=150, lr=0.5
+2025-12-17 11:01:10,693 | INFO | AdaBoost: n_estimators=200, lr=0.01
+2025-12-17 11:02:08,444 | INFO | AdaBoost: n_estimators=200, lr=0.05
+2025-12-17 11:03:06,242 | INFO | AdaBoost: n_estimators=200, lr=0.1
+2025-12-17 11:04:04,630 | INFO | AdaBoost: n_estimators=200, lr=0.5
+2025-12-17 11:05:02,610 | INFO | AdaBoost: n_estimators=300, lr=0.01
+2025-12-17 11:06:33,478 | INFO | AdaBoost: n_estimators=300, lr=0.05
+2025-12-17 11:08:02,676 | INFO | AdaBoost: n_estimators=300, lr=0.1
+2025-12-17 11:09:30,446 | INFO | AdaBoost: n_estimators=300, lr=0.5
+2025-12-17 11:10:57,371 | INFO | LSTM: units=4
+2025-12-17 11:10:59,072 | INFO | LSTM units=4 | Acc=0.7947, Prec=0.7929, Rec=0.8019, F1=0.7974
+2025-12-17 11:10:59,072 | INFO | LSTM: units=8
+2025-12-17 11:11:00,652 | INFO | LSTM units=8 | Acc=0.8050, Prec=0.8013, Rec=0.8150, F1=0.8081
+2025-12-17 11:11:00,652 | INFO | LSTM: units=12
+2025-12-17 11:11:02,524 | INFO | LSTM units=12 | Acc=0.8147, Prec=0.7809, Rec=0.8789, F1=0.8270
+2025-12-17 11:11:02,524 | INFO | LSTM: units=16
+2025-12-17 11:11:04,132 | INFO | LSTM units=16 | Acc=0.8189, Prec=0.7817, Rec=0.8887, F1=0.8318
+2025-12-17 11:11:04,132 | INFO | LSTM: units=20
+2025-12-17 11:11:05,747 | INFO | LSTM units=20 | Acc=0.8294, Prec=0.8085, Rec=0.8666, F1=0.8366
+2025-12-17 11:11:05,747 | INFO | LSTM: units=24
+2025-12-17 11:11:07,364 | INFO | LSTM units=24 | Acc=0.8326, Prec=0.8103, Rec=0.8719, F1=0.8400
+2025-12-17 11:11:07,364 | INFO | LSTM: units=28
+2025-12-17 11:11:08,996 | INFO | LSTM units=28 | Acc=0.8349, Prec=0.8350, Rec=0.8379, F1=0.8365
+2025-12-17 11:11:08,997 | INFO | LSTM: units=32
+2025-12-17 11:11:10,635 | INFO | LSTM units=32 | Acc=0.8335, Prec=0.8468, Rec=0.8173, F1=0.8318
+2025-12-17 11:11:10,636 | INFO | LSTM: units=36
+2025-12-17 11:11:12,283 | INFO | LSTM units=36 | Acc=0.8393, Prec=0.8253, Rec=0.8640, F1=0.8442
+2025-12-17 11:11:12,283 | INFO | LSTM: units=40
+2025-12-17 11:11:13,962 | INFO | LSTM units=40 | Acc=0.8413, Prec=0.8468, Rec=0.8362, F1=0.8415
+2025-12-17 11:11:13,962 | INFO | LSTM: units=44
+2025-12-17 11:11:15,656 | INFO | LSTM units=44 | Acc=0.8262, Prec=0.7767, Rec=0.9194, F1=0.8420
+2025-12-17 11:11:15,656 | INFO | LSTM: units=48
+2025-12-17 11:11:17,553 | INFO | LSTM units=48 | Acc=0.8421, Prec=0.8365, Rec=0.8535, F1=0.8449
+2025-12-17 11:11:17,553 | INFO | LSTM: units=52
+2025-12-17 11:11:19,302 | INFO | LSTM units=52 | Acc=0.8340, Prec=0.8747, Rec=0.7826, F1=0.8261
+2025-12-17 11:11:19,302 | INFO | LSTM: units=56
+2025-12-17 11:11:21,017 | INFO | LSTM units=56 | Acc=0.8373, Prec=0.7973, Rec=0.9080, F1=0.8490
+2025-12-17 11:11:21,017 | INFO | LSTM: units=60
+2025-12-17 11:11:22,748 | INFO | LSTM units=60 | Acc=0.8436, Prec=0.8211, Rec=0.8817, F1=0.8503
+2025-12-17 11:11:22,748 | INFO | LSTM: units=64
+2025-12-17 11:11:24,512 | INFO | LSTM units=64 | Acc=0.8427, Prec=0.8571, Rec=0.8253, F1=0.8409
+2025-12-17 11:11:24,512 | INFO | LSTM: units=72
+2025-12-17 11:11:26,286 | INFO | LSTM units=72 | Acc=0.8433, Prec=0.8509, Rec=0.8354, F1=0.8431
+2025-12-17 11:11:26,286 | INFO | LSTM: units=80
+2025-12-17 11:11:28,100 | INFO | LSTM units=80 | Acc=0.8471, Prec=0.8367, Rec=0.8653, F1=0.8508
+2025-12-17 11:11:28,100 | INFO | LSTM: units=96
+2025-12-17 11:11:29,982 | INFO | LSTM units=96 | Acc=0.8482, Prec=0.8379, Rec=0.8662, F1=0.8518
+2025-12-17 11:11:29,982 | INFO | LSTM: units=128
+2025-12-17 11:11:32,024 | INFO | LSTM units=128 | Acc=0.8475, Prec=0.8451, Rec=0.8538, F1=0.8494
+2025-12-17 11:11:32,028 | INFO | 80 Skip-gram experiments finished
